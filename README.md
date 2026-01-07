@@ -23,7 +23,7 @@ Our key finding: egocentric adaptation yields **competitive recognition** but **
 | Full training on Ego10K | 34.76 |
 | Continued pretraining on EPIC-Kitchens + full finetuning | 35.78 |
 | Frozen initial layers, Ego10K domain adapted | 35.20 |
-| Frozen initial layers, EPIC-Kitchens domain adapted | 38.06 |
+| Frozen initial layers, EPIC-Kitchens domain adapted | **38.06** |
 | ImageNet pretraining only | **38.20** |
 
 ### Vision-Based Cube Reorientation (IsaacLab)
@@ -95,17 +95,6 @@ HF_TOKEN=your_token python probe_dinov3.py --data_dir ./epic_kitchens --model vi
 - **EPIC-Kitchens**: Kitchen activity dataset for evaluation
 
 Frame extraction scripts handle deduplication via DINOv3 embedding similarity.
-
-## Citation
-
-```bibtex
-@inproceedings{grieve2025handeye,
-  title={HandEye: Pretrained Vision Encoders for Dexterous Manipulation},
-  author={Grieve, Jay and Lvov, Gary},
-  booktitle={ICML},
-  year={2025}
-}
-```
 
 ## License
 
