@@ -3,6 +3,11 @@
 **Jay Grieve** & **Gary Lvov**
 Brown University
 
+<p align="center">
+<img src="figs/im.png" width="70%">
+</p>
+<p align="center"><i>Vision-based in-hand cube reorientation in IsaacLab</i></p>
+
 This repository contains the code for training and evaluating vision backbones for dexterous manipulation, as described in our paper.
 
 ## Abstract
