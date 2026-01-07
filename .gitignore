@@ -1,0 +1,46 @@
+# Data directories
+data/
+egocentric-10k/
+epic_kitchens/
+frames/
+frames_epickitchens/
+frames_epickitchens_500k/
+video_cache/
+models/
+
+# Checkpoints and outputs
+mae_output*/
+probe_results/
+final_results/
+
+# Large files
+selected_frames.json
+hf.txt
+
+# Virtual environments
+.venv/
+venv/
+
+# Claude
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+*.log
+.DS_Store
